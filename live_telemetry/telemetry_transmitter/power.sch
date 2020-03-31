@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+LIBS:telemetry_transmitter-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -420,7 +421,7 @@ L Device:R R10
 U 1 1 5BA12469
 P 6500 1200
 F 0 "R10" H 6570 1246 50  0000 L CNN
-F 1 "R" H 6570 1155 50  0000 L CNN
+F 1 "5k" H 6570 1155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 1200 50  0001 C CNN
 F 3 "~" H 6500 1200 50  0001 C CNN
 	1    6500 1200
@@ -431,7 +432,7 @@ L Device:R R11
 U 1 1 5BA124E1
 P 6500 1600
 F 0 "R11" H 6570 1646 50  0000 L CNN
-F 1 "R" H 6570 1555 50  0000 L CNN
+F 1 "20k" H 6570 1555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 1600 50  0001 C CNN
 F 3 "~" H 6500 1600 50  0001 C CNN
 	1    6500 1600
@@ -1092,4 +1093,6 @@ F 3 "~" H 9650 5600 50  0001 C CNN
 	1    9650 5600
 	1    0    0    -1  
 $EndComp
+Text Notes 2450 4950 0    50   ~ 0
+(0.2 ohms)
 $EndSCHEMATC

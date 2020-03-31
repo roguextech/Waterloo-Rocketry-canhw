@@ -1197,7 +1197,7 @@
     )
   )
 
-  (gr_text "Kyoto\nD. Kletke\n2020-02-23" (at 137.4902 97.7646) (layer B.SilkS)
+  (gr_text "Kyoto\nTelemetry RX\nD. Kletke\n2020-02-23" (at 137.4902 97.7646) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (dimension 27.94 (width 0.15) (layer Dwgs.User)
